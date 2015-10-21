@@ -26,6 +26,8 @@ class POIAnnotationView: MKAnnotationView {
         //predelame si objekt z tridy MKAnnotation do nasi tridy POIAnnotation
         let poiAnnotation = self.annotation as! POIAnnotation
         
+        //obrazky pochazeji z http://www.freepik.com/free-vector/vectors_802102.htm - Designed by Freepik
+        
         //a podle typu tomu pak nacteme spravny obrazek
         switch (poiAnnotation.type) {
         case .POIBar:
@@ -37,7 +39,7 @@ class POIAnnotationView: MKAnnotationView {
         default:
             image = UIImage(named: "default")
         }
+        
     }
-    
     
 }

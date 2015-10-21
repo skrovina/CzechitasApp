@@ -15,6 +15,16 @@
 		6A69C3E51BD6491E0046954D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3E31BD6491E0046954D /* LaunchScreen.storyboard */; };
 		6A69C3ED1BD656080046954D /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EC1BD656080046954D /* POIAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
 		6A69C3EF1BD659910046954D /* POAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EE1BD659910046954D /* POAnnotationView.swift */; settings = {ASSET_TAGS = (); }; };
+		6A69C3F11BD6646E0046954D /* POIs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3F01BD6646E0046954D /* POIs.plist */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FA1BD7A2B500DD1EC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F21BD7A2B500DD1EC6 /* bar.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FB1BD7A2B500DD1EC6 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F31BD7A2B500DD1EC6 /* bar@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FC1BD7A2B500DD1EC6 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F41BD7A2B500DD1EC6 /* cafe.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FD1BD7A2B500DD1EC6 /* cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F51BD7A2B500DD1EC6 /* cafe@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FE1BD7A2B500DD1EC6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F61BD7A2B500DD1EC6 /* default.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC8FF1BD7A2B500DD1EC6 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F71BD7A2B500DD1EC6 /* default@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC9001BD7A2B500DD1EC6 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC9011BD7A2B500DD1EC6 /* restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */; settings = {ASSET_TAGS = (); }; };
+		6A6BC9031BD7B6E100DD1EC6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC9021BD7B6E100DD1EC6 /* icon.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		6A69C3E61BD6491E0046954D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A69C3EC1BD656080046954D /* POIAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIAnnotation.swift; sourceTree = "<group>"; };
 		6A69C3EE1BD659910046954D /* POAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POAnnotationView.swift; sourceTree = "<group>"; };
+		6A69C3F01BD6646E0046954D /* POIs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = POIs.plist; path = CzechitasApp/POIs.plist; sourceTree = "<group>"; };
+		6A6BC8F21BD7A2B500DD1EC6 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = CzechitasApp/bar.png; sourceTree = "<group>"; };
+		6A6BC8F31BD7A2B500DD1EC6 /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar@2x.png"; path = "CzechitasApp/bar@2x.png"; sourceTree = "<group>"; };
+		6A6BC8F41BD7A2B500DD1EC6 /* cafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cafe.png; path = CzechitasApp/cafe.png; sourceTree = "<group>"; };
+		6A6BC8F51BD7A2B500DD1EC6 /* cafe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cafe@2x.png"; path = "CzechitasApp/cafe@2x.png"; sourceTree = "<group>"; };
+		6A6BC8F61BD7A2B500DD1EC6 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = CzechitasApp/default.png; sourceTree = "<group>"; };
+		6A6BC8F71BD7A2B500DD1EC6 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "CzechitasApp/default@2x.png"; sourceTree = "<group>"; };
+		6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restaurant.png; path = CzechitasApp/restaurant.png; sourceTree = "<group>"; };
+		6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "restaurant@2x.png"; path = "CzechitasApp/restaurant@2x.png"; sourceTree = "<group>"; };
+		6A6BC9021BD7B6E100DD1EC6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = CzechitasApp/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 		6A69C3CB1BD6491E0046954D = {
 			isa = PBXGroup;
 			children = (
+				6A6BC8F11BD7A29900DD1EC6 /* data */,
 				6A69C3D61BD6491E0046954D /* CzechitasApp */,
 				6A69C3D51BD6491E0046954D /* Products */,
 			);
@@ -71,6 +92,23 @@
 				6A69C3DE1BD6491E0046954D /* CzechitasApp.xcdatamodeld */,
 			);
 			path = CzechitasApp;
+			sourceTree = "<group>";
+		};
+		6A6BC8F11BD7A29900DD1EC6 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				6A6BC9021BD7B6E100DD1EC6 /* icon.png */,
+				6A6BC8F21BD7A2B500DD1EC6 /* bar.png */,
+				6A6BC8F31BD7A2B500DD1EC6 /* bar@2x.png */,
+				6A6BC8F41BD7A2B500DD1EC6 /* cafe.png */,
+				6A6BC8F51BD7A2B500DD1EC6 /* cafe@2x.png */,
+				6A6BC8F61BD7A2B500DD1EC6 /* default.png */,
+				6A6BC8F71BD7A2B500DD1EC6 /* default@2x.png */,
+				6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */,
+				6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */,
+				6A69C3F01BD6646E0046954D /* POIs.plist */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +168,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6BC9031BD7B6E100DD1EC6 /* icon.png in Resources */,
 				6A69C3E51BD6491E0046954D /* LaunchScreen.storyboard in Resources */,
+				6A6BC9001BD7A2B500DD1EC6 /* restaurant.png in Resources */,
+				6A6BC8FC1BD7A2B500DD1EC6 /* cafe.png in Resources */,
+				6A6BC8FF1BD7A2B500DD1EC6 /* default@2x.png in Resources */,
+				6A6BC8FA1BD7A2B500DD1EC6 /* bar.png in Resources */,
+				6A6BC8FB1BD7A2B500DD1EC6 /* bar@2x.png in Resources */,
 				6A69C3E21BD6491E0046954D /* Assets.xcassets in Resources */,
+				6A6BC9011BD7A2B500DD1EC6 /* restaurant@2x.png in Resources */,
 				6A69C3DD1BD6491E0046954D /* Main.storyboard in Resources */,
+				6A69C3F11BD6646E0046954D /* POIs.plist in Resources */,
+				6A6BC8FD1BD7A2B500DD1EC6 /* cafe@2x.png in Resources */,
+				6A6BC8FE1BD7A2B500DD1EC6 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

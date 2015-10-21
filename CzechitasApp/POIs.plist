@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>FI MUNI</string>
+		<key>location</key>
+		<string>{49.21, 16.599}</string>
+		<key>type</key>
+		<string>0</string>
+		<key>subtitle</key>
+		<string>Nejlepší škola ever ;)</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bar který neexistuje</string>
+		<key>location</key>
+		<string>{49.19588, 16.6097}</string>
+		<key>type</key>
+		<string>1</string>
+		<key>subtitle</key>
+		<string>Drinky na míru, burgery k zakousnutí, zavírají s posledním zákazníkem</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Super panda cirkus</string>
+		<key>location</key>
+		<string>{49.19266, 16.60509}</string>
+		<key>type</key>
+		<string>1</string>
+		<key>subtitle</key>
+		<string>Nejzvláštnější bar v Brně, můžete tu šňupat kakao a pít z dámského střevíčku</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cafe Placzek</string>
+		<key>location</key>
+		<string>{49.19411, 16.61074}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>Skvělý Croque Monsieur a Máslový ležák</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Soul Bistro</string>
+		<key>location</key>
+		<string>{49.19707, 16.61028}</string>
+		<key>type</key>
+		<string>3</string>
+		<key>subtitle</key>
+		<string>Fish &amp; Chips, Club Sandwich a různé jiné dobroty</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Skog</string>
+		<key>location</key>
+		<string>{49.19374, 16.6073}</string>
+		<key>type</key>
+		<string>2</string>
+		<key>subtitle</key>
+		<string>Hipster cafe #1 - dejte si Flat White </string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>The Immigrant</string>
+		<key>location</key>
+		<string>{49.203181, 16.59671}</string>
+		<key>type</key>
+		<string>3</string>
+		<key>subtitle</key>
+		<string>Epický Pulled pork a často čepují Matušku a jiné dobroty</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Koishi</string>
+		<key>location</key>
+		<string>{49.19651, 16.60125}</string>
+		<key>type</key>
+		<string>3</string>
+		<key>subtitle</key>
+		<string>Prý jedna z nejlepších japonských restaurací v republice</string>
+	</dict>
+</array>
+</plist>

@@ -12,22 +12,42 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="center" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7Th-ae-SNN">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Th-ae-SNN">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="gSG-6e-rrM"/>
                                 </connections>
                             </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="axY-1T-AWb">
+                                <rect key="frame" x="237" y="552" width="127" height="29"/>
+                                <animations/>
+                                <segments>
+                                    <segment title="Map"/>
+                                    <segment title="Satellite"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapControlTouched:" destination="BYZ-38-t0r" eventType="valueChanged" id="NCU-Wv-m17"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7Th-ae-SNN" secondAttribute="trailing" id="8rO-G0-YP1"/>
+                            <constraint firstItem="7Th-ae-SNN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BEu-a4-2bx"/>
+                            <constraint firstItem="7Th-ae-SNN" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Vrl-r2-YJ7"/>
+                            <constraint firstAttribute="bottom" secondItem="axY-1T-AWb" secondAttribute="bottom" constant="20" symbolic="YES" id="WMS-DF-VOc"/>
+                            <constraint firstItem="axY-1T-AWb" firstAttribute="centerX" secondItem="7Th-ae-SNN" secondAttribute="centerX" id="uxe-fv-OAe"/>
+                            <constraint firstItem="7Th-ae-SNN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vC9-rn-fsC"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="mapControl" destination="axY-1T-AWb" id="58w-sg-ICO"/>
                         <outlet property="mapView" destination="7Th-ae-SNN" id="4K9-Bf-6Vy"/>
                     </connections>
                 </viewController>
