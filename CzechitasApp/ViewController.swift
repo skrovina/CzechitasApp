@@ -13,13 +13,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!//zabezpecuje propojeni do objektu view (nestaci sem rucne napsat! musime propojit s objektem ve view)
     
-    @IBOutlet weak var mapControl: UISegmentedControl! //pouzivame na prepinani typu mapy
+    @IBOutlet weak var mapControl: UISegmentedControl! //bazmek ktery pouzivame na prepinani typu mapy
     
     
     //tahle metoda se vola pote co se naloaduje view
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
 
         
         //bod reprezentujici stred mapy
@@ -43,7 +44,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     
@@ -53,11 +54,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
         switch mapControl.selectedSegmentIndex {
             
         case 0:
-            mapView.mapType = MKMapType.Standard
+            mapView.mapType = MKMapType.Standard //nastavi se standardni mapa
             break
             
         case 1:
-            mapView.mapType = MKMapType.Satellite
+            mapView.mapType = MKMapType.Satellite //nastavi se satelitni mapa
             break
             
         default:
@@ -68,6 +69,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     //pridava piny na mapu
     func addPOIPins() {
+        
         //nacteme obsah souboru POIs.plist do array
         if let filePath = NSBundle.mainBundle().pathForResource("POIs", ofType: "plist")
         {
