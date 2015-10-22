@@ -35,6 +35,8 @@ class ViewController: UIViewController, MKMapViewDelegate {
         //nastavime to nasemu mapView -> protoze je IBOutlet propojeny s view ve storyboardu, tak se to tam promitne
         mapView.region = region
         
+        //smazeme anotace ktere tam mohly zustat z drivejska
+        mapView.removeAnnotations(mapView.annotations)
         
         //nahrajeme nase body zajmu
         addPOIPins()
@@ -70,28 +72,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     //pridava piny na mapu
     func addPOIPins() {
         
-        //nacteme obsah souboru POIs.plist do array
-        if let filePath = NSBundle.mainBundle().pathForResource("POIs", ofType: "plist")
-        {
-            let pois = NSArray(contentsOfFile: filePath)
-            
-            //projdeme to zaznam po zaznamu a nacteme data
-            for poi in pois! {
-                
-                let point = CGPointFromString(poi["location"] as! String)
-                let coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(point.x), CLLocationDegrees(point.y))
-                let title = poi["name"] as! String
-                let typeRawValue = Int((poi["type"] as! String))!
-                let type = POIType(rawValue: typeRawValue)!
-                let subtitle = poi["subtitle"] as! String
-                
-                //pridame anotace do mapy
-                let annotation = POIAnnotation(coordinate: coordinate, title: title, subtitle: subtitle, type: type)
-                mapView.addAnnotation(annotation)
-            }
+        //projdeme si nagenerovane body a pridame je do mapy
+        for annotation in arrayOfPOIAnnotations {
+            mapView.addAnnotation(annotation)
         }
     }
-    
+
     
     
     
