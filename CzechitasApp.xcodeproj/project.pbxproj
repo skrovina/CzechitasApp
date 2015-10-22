@@ -13,18 +13,19 @@
 		6A69C3E01BD6491E0046954D /* CzechitasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3DE1BD6491E0046954D /* CzechitasApp.xcdatamodeld */; };
 		6A69C3E21BD6491E0046954D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3E11BD6491E0046954D /* Assets.xcassets */; };
 		6A69C3E51BD6491E0046954D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3E31BD6491E0046954D /* LaunchScreen.storyboard */; };
-		6A69C3ED1BD656080046954D /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EC1BD656080046954D /* POIAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
-		6A69C3EF1BD659910046954D /* POAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EE1BD659910046954D /* POAnnotationView.swift */; settings = {ASSET_TAGS = (); }; };
-		6A69C3F11BD6646E0046954D /* POIs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3F01BD6646E0046954D /* POIs.plist */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FA1BD7A2B500DD1EC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F21BD7A2B500DD1EC6 /* bar.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FB1BD7A2B500DD1EC6 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F31BD7A2B500DD1EC6 /* bar@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FC1BD7A2B500DD1EC6 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F41BD7A2B500DD1EC6 /* cafe.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FD1BD7A2B500DD1EC6 /* cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F51BD7A2B500DD1EC6 /* cafe@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FE1BD7A2B500DD1EC6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F61BD7A2B500DD1EC6 /* default.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC8FF1BD7A2B500DD1EC6 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F71BD7A2B500DD1EC6 /* default@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC9001BD7A2B500DD1EC6 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC9011BD7A2B500DD1EC6 /* restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */; settings = {ASSET_TAGS = (); }; };
-		6A6BC9031BD7B6E100DD1EC6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC9021BD7B6E100DD1EC6 /* icon.png */; settings = {ASSET_TAGS = (); }; };
+		6A69C3ED1BD656080046954D /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EC1BD656080046954D /* POIAnnotation.swift */; };
+		6A69C3EF1BD659910046954D /* POAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69C3EE1BD659910046954D /* POAnnotationView.swift */; };
+		6A69C3F11BD6646E0046954D /* POIs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A69C3F01BD6646E0046954D /* POIs.plist */; };
+		6A6BC8FA1BD7A2B500DD1EC6 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F21BD7A2B500DD1EC6 /* bar.png */; };
+		6A6BC8FB1BD7A2B500DD1EC6 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F31BD7A2B500DD1EC6 /* bar@2x.png */; };
+		6A6BC8FC1BD7A2B500DD1EC6 /* cafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F41BD7A2B500DD1EC6 /* cafe.png */; };
+		6A6BC8FD1BD7A2B500DD1EC6 /* cafe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F51BD7A2B500DD1EC6 /* cafe@2x.png */; };
+		6A6BC8FE1BD7A2B500DD1EC6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F61BD7A2B500DD1EC6 /* default.png */; };
+		6A6BC8FF1BD7A2B500DD1EC6 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F71BD7A2B500DD1EC6 /* default@2x.png */; };
+		6A6BC9001BD7A2B500DD1EC6 /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */; };
+		6A6BC9011BD7A2B500DD1EC6 /* restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */; };
+		6A6BC9031BD7B6E100DD1EC6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BC9021BD7B6E100DD1EC6 /* icon.png */; };
+		6ADDB0051BD917BC008D3310 /* NewPOIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADDB0041BD917BC008D3310 /* NewPOIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		6A6BC8F81BD7A2B500DD1EC6 /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = restaurant.png; path = CzechitasApp/restaurant.png; sourceTree = "<group>"; };
 		6A6BC8F91BD7A2B500DD1EC6 /* restaurant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "restaurant@2x.png"; path = "CzechitasApp/restaurant@2x.png"; sourceTree = "<group>"; };
 		6A6BC9021BD7B6E100DD1EC6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = CzechitasApp/icon.png; sourceTree = "<group>"; };
+		6ADDB0041BD917BC008D3310 /* NewPOIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPOIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				6A69C3D91BD6491E0046954D /* ViewController.swift */,
 				6A69C3EC1BD656080046954D /* POIAnnotation.swift */,
 				6A69C3EE1BD659910046954D /* POAnnotationView.swift */,
+				6ADDB0041BD917BC008D3310 /* NewPOIController.swift */,
 				6A69C3DB1BD6491E0046954D /* Main.storyboard */,
 				6A69C3E11BD6491E0046954D /* Assets.xcassets */,
 				6A69C3E31BD6491E0046954D /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A69C3DA1BD6491E0046954D /* ViewController.swift in Sources */,
+				6ADDB0051BD917BC008D3310 /* NewPOIController.swift in Sources */,
 				6A69C3ED1BD656080046954D /* POIAnnotation.swift in Sources */,
 				6A69C3E01BD6491E0046954D /* CzechitasApp.xcdatamodeld in Sources */,
 				6A69C3D81BD6491E0046954D /* AppDelegate.swift in Sources */,
