@@ -19,8 +19,7 @@ class NewPOIController: UIViewController {
     @IBOutlet weak var nameInput: UITextField!
     
     @IBOutlet weak var subtitleInput: UITextView!
-    
-    @IBOutlet weak var buttonCreate: UIButton!
+
     
     //tahle metoda se vola pote co se naloaduje view
     override func viewDidLoad() {
@@ -92,6 +91,9 @@ class NewPOIController: UIViewController {
         //a cele to zobrazime
         self.presentViewController(myAlert, animated: true, completion: nil)
     }
-    
-    
+
+	@IBAction func dismiss(sender: AnyObject) {
+		self.dismissViewControllerAnimated(true
+			, completion: nil)
+	}
 }
