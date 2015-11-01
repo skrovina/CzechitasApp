@@ -16,38 +16,33 @@ class ViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet weak var mapControl: UISegmentedControl! //bazmek ktery pouzivame na prepinani typu mapy
     
     
-    //tahle metoda se vola pote co se naloaduje view
+    //tahle metoda se vola pote co se prvy krat zobrazi tato obrazovka (View Controller) na zariadeni
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
 
-        
-        //bod reprezentujici stred mapy
-        let center = CLLocationCoordinate2D(latitude: 49.2, longitude: 16.6)
-        
-        //spocitame jak siroky a vysoky vysek z mapy chceme minimalne ukazovat
-        let span = MKCoordinateSpanMake(0.0, 0.06)//zemepisna sirka(latitude) staci 0.0 stupnu, ale delku(longitude) chceme alespon 0.06 stupne
-        
-        //spocitame co chceme zobrazovat podle toho kde je stred mapy a sirka zobrazovaneho vyrezu
-        let region = MKCoordinateRegionMake(center, span)
-        
-        //nastavime to nasemu mapView -> protoze je IBOutlet propojeny s view ve storyboardu, tak se to tam promitne
-        mapView.region = region
-        
-        //smazeme anotace ktere tam mohly zustat z drivejska
-        mapView.removeAnnotations(mapView.annotations)
-        
-        //nahrajeme nase body zajmu
-        addPOIPins()
-    }
+		//bod reprezentujici stred mapy
+		let center = CLLocationCoordinate2D(latitude: 49.2, longitude: 16.6)
 
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
+		//spocitame jak siroky a vysoky vysek z mapy chceme minimalne ukazovat
+		let span = MKCoordinateSpanMake(0.0, 0.06)//zemepisna sirka(latitude) staci 0.0 stupnu, ale delku(longitude) chceme alespon 0.06 stupne
+
+		//spocitame co chceme zobrazovat podle toho kde je stred mapy a sirka zobrazovaneho vyrezu
+		let region = MKCoordinateRegionMake(center, span)
+
+		//nastavime to nasemu mapView -> protoze je IBOutlet propojeny s view ve storyboardu, tak se to tam promitne
+		mapView.region = region
+	}
+
+	//metoda sa vola zakazdym, ked sa zobrazi tato obrazovka (View Controller)
+	override func viewWillAppear(animated: Bool) {
+		super.viewWillAppear(animated)
+
+		//smazeme anotace ktere tam mohly zustat z drivejska
+		mapView.removeAnnotations(mapView.annotations)
+
+		//nahrajeme nase body zajmu
+		addPOIPins()
+	}
 
     
     //tahle metoda se vykona kdyz nekdo tapne na mapControl
