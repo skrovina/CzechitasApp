@@ -66,7 +66,7 @@
         <!--New POI-->
         <scene sceneID="8cl-F6-cze">
             <objects>
-                <tableViewController id="h5w-yd-yOb" customClass="NewPOIController" customModule="CzechitasApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="h5w-yd-yOb" customClass="NewPOIViewController" customModule="CzechitasApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="sN4-4d-la0">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

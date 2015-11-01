@@ -1,5 +1,5 @@
 //
-//  NewPOIController.swift
+//  NewPOIViewController.swift
 //  CzechitasApp
 //
 //  Created by Martin Vytrhlík on 22/10/15.
@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class NewPOIController: UITableViewController {
+class NewPOIViewController: UITableViewController {
     
     //natahame si sem ze storyboardu outlety na dulezite veci
     
