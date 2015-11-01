@@ -40,7 +40,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
 		//smazeme anotace ktere tam mohly zustat z drivejska
 		mapView.removeAnnotations(mapView.annotations)
 
-		//nahrajeme nase body zajmu
+		//nahrajeme vsechny nase body zajmu
 		addPOIPins()
 	}
 

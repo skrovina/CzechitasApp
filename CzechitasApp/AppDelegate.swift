@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreData
 
-//tady budeme skladovat anotace co jsme si uz vyrobili
+//tady budeme skladovat anotace co jsme si uz vyrobili, k premennej je pristup zo vsetkych suborov
 var arrayOfPOIAnnotations = [POIAnnotation]()
 
 

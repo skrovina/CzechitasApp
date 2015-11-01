@@ -286,10 +286,10 @@
             </objects>
             <point key="canvasLocation" x="2721" y="429"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller //pro zobrazeni Navigation Bar-u navrchu-->
         <scene sceneID="Aeb-Yt-haB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MGo-GD-zLQ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MGo-GD-zLQ" userLabel="Navigation Controller //pro zobrazeni Navigation Bar-u navrchu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nnL-gW-qFR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -305,10 +305,10 @@
             </objects>
             <point key="canvasLocation" x="465" y="429"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller //pro zobrazeni Navigation Bar-u navrchu-->
         <scene sceneID="XDv-JD-Vn8">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rmj-hX-krt" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rmj-hX-krt" userLabel="Navigation Controller //pro zobrazeni Navigation Bar-u navrchu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ceX-L9-bBe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
